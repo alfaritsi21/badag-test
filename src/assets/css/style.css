@@ -1,0 +1,278 @@
+/* Landing Page */
+header {
+    padding: 10px 0;
+  }
+  
+  header nav {
+    padding: 20px 0;
+  }
+  
+  header nav .btn-sigup button{
+    width: 80px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background: #5e50a1;
+    border: none;
+    border: 1px solid #5e50a1;
+    transition: 0.97s ease-in;
+  }
+  
+  header nav .btn-sigup button:hover {
+    background: #fff;
+    border: 1px solid #5e50a1;
+    color: #5e50a1;
+  }
+  
+  header nav .btn-sigin button{
+    width: 80px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background: #fff;
+    border: 1px solid #5e50a1;
+    color: #5e50a1;
+    transition: 0.97s ease-in;
+  }
+  
+  header nav .btn-sigin button:hover {
+    background: #5e50a1;
+    border: 1px solid #5e50a1;
+    color: #fff;
+  }
+  
+  header .main-header {
+    margin: 50px 0;
+  }
+  
+  header .main-header h1 {
+    font-size: 44px;
+    width: 490px;
+    margin-top: 100px;
+  }
+  
+  header .main-header p {
+    color: #46505c;
+    font-size: 18px;
+    width: 488px;
+    margin: 20px 0;
+  }
+  
+  header .main-header .btn-start {
+    width: 200px;
+    padding: 15px 5px;
+    border: 1px solid #5e50a1;
+    background: #5e50a1;
+    margin: 20px 0;
+  }
+  
+  header .main-header .rectangle-header {
+    width: 500px;
+    height: 500px;
+    background: #e2e5ed;
+    transform: rotate(-15.79deg);
+  }
+  
+  header .main-header .rectangle-small {
+    position: absolute;
+    top: 410px;
+    right: 480px;
+    width: 118.59px;
+    height: 118.59px;
+    background: #5e50a1;
+  }
+  
+  header .main-header .rectangle-yellow {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 60px;
+    background: #fbb017;
+  }
+  
+  header .main-header .img-header img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Section 2 */
+  .why {
+    margin: 200px 0;
+  }
+  
+  .why h2 {
+    font-size: 36px;
+    width: 515px;
+    margin-bottom: 20px;
+  }
+  
+  .why .why-img img {
+    width: 496px;
+    height: 389.85px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .why .why-img .rectangle-why {
+    width: 496px;
+    height: 390px;
+    background: #e2e5ed;
+    transform: rotate(12.57deg);
+  }
+  
+  .why .why-img .rectangle-small-why {
+    background: #5e50a1;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -50px;
+    left: -25px;
+  }
+  
+  .why p {
+    padding: 10px 0;
+    color: #46505c;
+    font-size: 18px;
+  }
+  .why p .icons {
+    margin-right: 20px;
+  }
+  
+  /* End Section 2 */
+  
+  /* Section 3 */
+  .skill {
+    margin: 200px 0;
+  }
+  
+  .skill h2 {
+    font-size: 36px;
+  }
+  
+  .skill p {
+    font-size: 18px;
+    color: #46505c;
+  }
+  
+  .skill p .icons {
+    margin-right: 20px;
+  }
+  
+  .skill .img-skill img {
+    width: 496px;
+    height: 389.85px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .skill .img-skill .rectangle-skill {
+    width: 496px;
+    height: 390px;
+    background: #e2e5ed;
+    transform: rotate(-12.92deg);
+  }
+  
+  .skill .img-skill .rectangle-skill-small {
+    width: 90px;
+    height: 90px;
+    background: #fbb017;
+    position: absolute;
+    top: -50px;
+    right: 20px;
+  }
+  /* End Section 3 */
+  
+  /* Section 4 */
+  .sign-now {
+    margin: 200px 0;
+  }
+  
+  .sign-now .banner {
+    background: #5e50a1;
+    padding: 50px;
+    border-radius: 40px 8px;
+  }
+  
+  .sign-now h1 {
+    color: #fff;
+    width: 300px;
+  }
+  
+  .sign-now .btn-sign-now {
+    background: #fff;
+    color: #5e50a1;
+    width: 250px;
+    padding: 20px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.95 ease-in;
+  }
+  
+  .sign-now .btn-sign-now:hover {
+    border: 1px solid #fff;
+    background: #5e50a1;
+    color: #fff;
+  }
+  /* End Section 4 */
+
+  @media (max-width: 768px) {
+    header .main-header h1 {
+        font-size: 32px;
+        width: 300px;
+      }
+      header .main-header p {
+        font-size: 14px;
+        width: 230px;
+      }
+      header .main-header .btn-start {
+        width: 170px;
+        padding: 10px 5px;
+      }
+      header .main-header .rectangle-header {
+        width: 350px;
+        height: 350px;
+      }
+      header .main-header .rectangle-small {
+        position: absolute;
+        top: 290px;
+        right: 300px;
+        width: 80px;
+        height: 80px;
+      }
+      header .main-header .rectangle-yellow {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 50px;
+      }
+      header .main-header .img-header img {
+        width: 350px;
+        height: 350px;
+      }
+
+    /* Section 2 */
+    .why .why-img img {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        top: 0;
+      }
+      .why .why-img .rectangle-why {
+        width: 400px;
+        height: 300px;
+      }
+      .why .why-img .rectangle-small-why {
+        width: 60px;
+        height: 60px;
+        top: -30px;
+        left: -15px;
+      }
+      .why h2 {
+        font-size: 28px;
+        width: 350px;
+      }
+    /* End Section 2 */
+
+  }
+/* End Landing Page */
